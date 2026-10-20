@@ -1,4 +1,4 @@
-#変数=リストの宣言(=[])
+#リストの作成
 numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
