@@ -10,7 +10,7 @@ y_list = [y] * 10
 big_list = x_list + y_list
 
 #リスト内オブジェクト数の出力
-#%dで整数型変数の出力
+#%は演算子、dで整数型変数の出力
 #len()でリスト内のオブジェクト数を取得
 print("x_list contains %d objects" % len(x_list))
 print("y_list contains %d objects" % len(y_list))
