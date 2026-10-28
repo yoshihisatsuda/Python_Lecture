@@ -10,12 +10,13 @@ numbers = [
 
 # your code goes here
 #変数numberをここで定義、for–inでnumbersリストから順次代入
-#もし変数numberが237ならここで終了
+
 for number in numbers:
+    #もし変数numberが237ならここで終了
     if number == 237:
         break
-
+    #もし2で割って1余るなら(=奇数なら)continueでforループ続行
     if number % 2 == 1:
         continue
-
+    #上記条件をすり抜けた場合にnumberを出力
     print(number)
