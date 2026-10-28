@@ -9,6 +9,8 @@ numbers = [
 ]
 
 # your code goes here
+#変数numberをここで定義、for–inでnumbersリストから順次代入
+#もし変数numberが237ならここで終了
 for number in numbers:
     if number == 237:
         break
